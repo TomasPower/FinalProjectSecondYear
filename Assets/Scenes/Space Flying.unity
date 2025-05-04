@@ -593,7 +593,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _movementInput: {fileID: 1235012008}
-  _thrustForce: 10000
+  _thrustForce: 20000
   _pitchForce: 2500
   _rollForce: 1000
   _yawForce: 3000
@@ -1392,7 +1392,7 @@ ParticleSystem:
     sphericalDirectionAmount: 0
     randomPositionAmount: 0
     radius:
-      value: 1000
+      value: 1750
       mode: 0
       spread: 0
       speed:
