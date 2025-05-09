@@ -30,7 +30,7 @@ public class Projectile : MonoBehaviour
         _duration = _range;
     }
 
-    private void Update()
+    void Update()
     {
         if (OutOfFuel) Destroy(gameObject);
     }

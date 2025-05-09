@@ -112,13 +112,13 @@ Material:
     - _FlowIntensity: 2
     - _FlowSpeed: 0.004
     - _Flow_Intensity: 2
-    - _Flow_Speed: 0.004
+    - _Flow_Speed: 0.01
     - _Fresnel_Power: 6.4
     - _GlossMapScale: 0
     - _Glossiness: 0
     - _GlossyReflections: 0
     - _Lacunarity: 2
-    - _Metallic: 0
+    - _Metallic: 6.76
     - _NumLayers: 10
     - _OcclusionStrength: 1
     - _Parallax: 0.005
@@ -126,7 +126,7 @@ Material:
     - _QueueControl: 0
     - _QueueOffset: 0
     - _ReceiveShadows: 1
-    - _Scale: 0.3
+    - _Scale: 68.66
     - _Smoothness: 0
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1

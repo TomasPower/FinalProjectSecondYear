@@ -4,7 +4,7 @@ using UnityEngine;
 public class Blaster : MonoBehaviour
 {
     [SerializeField]
-    [Required] Projectile _projectilePrefab;
+    Projectile _projectilePrefab;
 
     [SerializeField] Transform _muzzle;
     [SerializeField]  [Range(0f, 5f)] float _coolDownTime = 0.25f;
