@@ -6409,7 +6409,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _movementInput: {fileID: 1151548201886957975}
-  _thrustForce: 20000
+  _thrustForce: 15000
   _pitchForce: 2500
   _rollForce: 1000
   _yawForce: 3000

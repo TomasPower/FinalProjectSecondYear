@@ -9,8 +9,8 @@ public class ShipController : MonoBehaviour
    
     [BoxGroup("Ship movement values")]
     [SerializeField]
-    [Range(1000f, 20000f)]
-    float _thrustForce = 7500f,
+    [Range(1000f, 15000f)]
+    float _thrustForce = 15000f,
         _pitchForce = 6000f,
         _rollForce = 1000f,
         _yawForce = 2000f;
