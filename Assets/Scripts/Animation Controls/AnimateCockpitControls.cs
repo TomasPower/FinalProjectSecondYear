@@ -5,6 +5,7 @@ using UnityEngine;
 
 public class AnimateCockpitControls : MonoBehaviour
 {
+    
     [BoxGroup("FLight control transforms and ranges")] [Required][SerializeField]
     Transform _joystick;
 
@@ -25,12 +26,14 @@ public class AnimateCockpitControls : MonoBehaviour
     IMovementControls ControlInput => _movementInput.MovementControls;
     void Update()
     {
-        _joystick.localRotation = Quaternion.Euler(
-            ControlInput.PitchAmount * _joystickRange.x,
-            ControlInput.YawAmount * _joystickRange.y,
-            ControlInput.RollAmount * _joystickRange.z
+        
+        
+            _joystick.localRotation = Quaternion.Euler(
+                ControlInput.PitchAmount * _joystickRange.x,
+                ControlInput.YawAmount * _joystickRange.y,
+                ControlInput.RollAmount * _joystickRange.z
 
-            );
+                );
 
         Vector3 throttleRotation = _throttles[0].localRotation.eulerAngles;
         throttleRotation.x = ControlInput.ThrustAmount * _throttleRange;

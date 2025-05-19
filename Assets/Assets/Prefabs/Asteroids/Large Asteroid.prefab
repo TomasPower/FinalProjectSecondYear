@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 5463923424591557118}
   - component: {fileID: 2489273351944058429}
   - component: {fileID: 1618357749545333821}
+  - component: {fileID: -3540876173122102993}
   m_Layer: 0
   m_Name: Large Asteroid
   m_TagString: Untagged
@@ -28,7 +29,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -4.41, y: 0.031665113, z: 4.96}
-  m_LocalScale: {x: 4, y: 4, z: 4}
+  m_LocalScale: {x: 25, y: 25, z: 25}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -86,3 +87,25 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &-3540876173122102993
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5860365156016876684}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 7053893933298424306, guid: 78499d97230fe0748a3fc15499c77d48, type: 3}

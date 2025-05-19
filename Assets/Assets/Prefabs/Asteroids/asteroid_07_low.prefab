@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 943349433872231984}
   - component: {fileID: 4444331768444490756}
   - component: {fileID: 8405293620388253193}
+  - component: {fileID: -6631924083055001935}
   m_Layer: 0
   m_Name: asteroid_07_low
   m_TagString: Untagged
@@ -28,7 +29,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 1.8280914, y: -0.23550892, z: 1.0828236}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 30, y: 30, z: 30}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -86,3 +87,25 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &-6631924083055001935
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6647337876817305532}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -3146619269759647760, guid: 78499d97230fe0748a3fc15499c77d48, type: 3}
